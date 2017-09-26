@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: echo-service
+server:
+  port: 8080
+management:
+  security:
+    enabled: false
