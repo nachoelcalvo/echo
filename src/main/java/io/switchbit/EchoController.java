@@ -18,6 +18,7 @@ public class EchoController {
 		this.restTemplate = restTemplate;
 	}
 
+	//Change for toggles
 	@GetMapping(path = "/{message}")
 	public String echo(@PathVariable String message) {
 		log.info("Sending echo message: {}", message);
